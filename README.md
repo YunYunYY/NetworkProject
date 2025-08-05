@@ -1,4 +1,4 @@
-# AWS
+# AWS/Network
 
 ### 311 - EC2, S3
 * EC2 인스턴스 조회 - Instance ID, Instance Type, Private IP Address, LaunchTime
@@ -21,3 +21,14 @@ EIP 할당 후 private 서브넷에 연결한 NAT Gateway 생성.
 Routing Table 생성 후 NAT Gateway 연결. private 서브넷과 연결.
 * Security Group 생성 <br>
 모든 outbound가 허용인 Security Group 생성.
+
+<br>https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
+
+### 314 - psutil
+psutil을 이용하여 컴퓨터 자원 조회
+* cpu usage(%)
+* memory total(GB)/available(GB)/usage(%)
+* disk usage(%)
+* network sent bytes/recieved bytes<br>
+
+https://psutil.readthedocs.io/en/latest/#psutil.cpu_percent
